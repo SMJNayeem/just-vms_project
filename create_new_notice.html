@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>NOTICE</title>
+		
+		<!-- Font awesome -->
+		<script src="https://kit.fontawesome.com/c9ceea128b.js" crossorigin="anonymous"></script>
+		
+		<!-- Css -->
+		<style type = "text/css" rel = "stylesheet">
+		
+#container {
+	width: 1140px;
+	display: block;
+	margin: auto;
+}
+.notice_title {
+    display: block;
+    text-align: center;
+}
+
+hr {
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 35px;
+}
+.notice_form {
+    max-width: 100%;
+    min-width: 1115px;
+    border: 1px solid #00000036;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: initial;
+    font-size: 16px;
+    display: block;
+    outline: none;
+}
+h4.notice_form_name {
+    padding: 0px;
+    margin: 25px 0px 5px 0px;
+    padding-left: 2px;
+}
+.notice_form_single {
+    margin-top: 20px;
+}
+
+input.notice_add {
+    width: 100%;
+    background: #3DBDEC;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+		
+		</style>
+		
+	
+	</head>
+	
+	<body>
+	
+		<section id = "create_notice">
+		
+			<div id = "container">
+		
+				<div class = "notice_main">
+				
+					<h2 class = "notice_title"><i class="far fa-edit"></i>Create New Notice</h2> <hr/>
+					
+					<div class = "notice_form_single">
+					
+						<h4 class = "notice_form_name">Notice title</h4>
+						<input class = "notice_form" name="title" type="text" placeholder="Write notice title"/>
+					
+					</div>
+					<div class = "notice_form_single">
+					
+						<h4 class = "notice_form_name">Upload picture</h4>
+						<input class = "notice_form" name="picture" type="file" placeholder="Write notice title"/>
+					
+					</div>
+					<div class = "notice_form_single">
+					
+						<h4 class = "notice_form_name">Description</h4>
+						<textarea class = "notice_form" name = "description" rows = "5" col = "5" type = "text" placeholder = "Write notice description"></textarea>
+					
+					</div>
+					
+					<input class = "notice_add notice_form" name="submit" type="button" value = "Add notice"/>
+					
+				</div>
+		
+			</div>
+			
+		</section>
+	
+	</body>
+
+</html>
