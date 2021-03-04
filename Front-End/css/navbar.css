@@ -66,16 +66,16 @@ img {
 }
 .navicon{
     height: 35px;
-    width: 90px;
+    width: 135px;
     text-align: left;
     line-height: 30px;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 3px;
     border-radius: 20px 10px 10px 20px;
     background-image: linear-gradient(to right,rgb(48, 185, 235),rgba(255, 255, 255,0.09));
     color: #000;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
 }
 
