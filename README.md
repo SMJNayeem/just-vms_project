@@ -1,1 +1,0 @@
-This is a group project for students of Jashore University of Science and Technology. This project is about Vehicle Management System for our university.
