@@ -60,17 +60,17 @@ img {
     font-weight: 300;
 }
 .navicon{
-    height: 35px;
-    width: 90px;
-    text-align: left;
-    line-height: 30px;
-    padding-left: 10px;
+    width: 100%;
+    text-align: justify;
+    margin-left: 10px;
+    padding: 7px 15px;
     border-radius: 20px 10px 10px 20px;
     background-image: linear-gradient(to right,rgb(48, 185, 235),rgba(255, 255, 255,0.09));
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    
 }
 
 .navbg{
@@ -169,15 +169,14 @@ img {
 }
 
 .messagecontent{
-    width: 100%;
+    width: 95%;
     /* height: 500px; */
     display: flex;
     position: relative;
-    margin: 50px 0px;
     padding: 50px 0px;
 }
 .msg{
-    width: 90%;
+    width: 100%;
     text-align: justify;
     font-family: 'roboto', sans-serif;
     font-weight: 400;
@@ -249,14 +248,19 @@ img {
     font-weight: 500;
 }
 
+/* vehicle Details ends */
 
 
-
-
-/* for test purpose (may have have content) */
-.lolo{
-    height: 7000px;
+.footer .footercontent{
     width: 100%;
-    background-color: blue;
+    height: 70px;
+    padding: 20px 0px;
+    background-color:rgb(37, 37, 37);
     text-align: center;
+    color: #fff;
+}
+
+.footer .footercontent small{
+    font-size: 15px;
+    line-height: 25px;
 }
