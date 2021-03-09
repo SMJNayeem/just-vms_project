@@ -1,0 +1,12 @@
+#Profile_section {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #303A52;
+}

@@ -1,0 +1,11 @@
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container{
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding:30px 50px;
+}
