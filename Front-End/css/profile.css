@@ -21,63 +21,78 @@ img {
 /* common css end */
 
 
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.profiledetails{
+    margin-top: 60px;
+
+}
+
+.profiledetails .topview{
+    border-radius: 10px;
+    box-shadow: 0 4px 2px 0px gray;
+}
+
+.profiledetails .topview .text1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+}
 
 
-
-
-
-/* Navbar */
-.header{
+.profiledetails .topview .editbutton a{
+    height: 30px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(48, 185, 235);
+    border-radius: 10px
+}
+.profiledetails .bottomview{
+    margin-top: 70px;
+}
+.profiledetails .bottomview .userimage img{
     width: 100%;
-   
+    transform: translate(0%,25%);
+
+}
+.profiledetails .bottomview .userinfo{
+    
+    background-color: rgba(255, 255, 255, 0.666);
+    padding: 20px 20px;
     
 }
-.navbar{
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 4px 2%;
-    background-color: #fff;
-    transition: all linear 0.3s;
-    z-index: 999;
-    box-shadow: 0px 5px 4px rgba(128, 128, 128, 0.387);
-}
-.logo{
-    width: 70px;
-    height: 70px;
-}
-.header .navbar a{
-    display: flex;
-}
-.textlogo{
-    height: 70px;
-    width: 70px;
-    margin-left: 20px;
-}
-.textlogofirst{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-}
-.textlogosecond{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-}
-.navicon{
-    height: 35px;
-    width: 135px;
-    text-align: left;
-    line-height: 30px;
+
+
+.profiledetails .bottomview .userinfo .aboutme{
     padding-left: 15px;
-    padding-top: 3px;
-    border-radius: 20px 10px 10px 20px;
-    background-image: linear-gradient(to right,rgb(48, 185, 235),rgba(255, 255, 255,0.09));
-    color: #000;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 4px 2px 0px gray;
 }
 
 
-/* navbar ENDS*/
+.profiledetails .bottomview .userinfo td{
+    padding: 10px 20px;
+}
+
+.profiledetails .bottomview .userinfo .rock{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.profiledetails .bottomview .userinfo .softy{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300px;
+}
