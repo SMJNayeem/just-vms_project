@@ -231,11 +231,10 @@ img {
     margin: 50px 0px;
 }
 
-.vehicledetails .drop .counter{
-    font-size: 2.5rem;
+.vehicledetails .counter{
+    font-size: 1rem;
     margin: 10px;
 }
-
 .vehicledetails .drop{
     
     background: rgb(216, 216, 216);

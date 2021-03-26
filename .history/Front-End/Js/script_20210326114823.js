@@ -1,12 +1,12 @@
-$(function () {
+$(function(){
 
-    $(window).scroll(function () {
+    $(window).scroll(function(){
         var scrolling = $(this).scrollTop();
-
-
-        if (scrolling > 90) {
+     
+        
+        if(scrolling > 90){
             $('.navbar').addClass('navbg');
-        } else {
+        } else{
             $('.navbar').removeClass('navbg')
         }
     });
