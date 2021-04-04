@@ -21,3 +21,11 @@ img {
 /* common css end */
 
 
+.editprofilepage {
+    margin-top: 70px;
+}
+
+.editprofilepage .nav .navbutt{
+    color: #000;
+    
+}

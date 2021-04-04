@@ -31,7 +31,7 @@ body{
 }
 
 .profiledetails .topview{
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 4px 2px 0px gray;
 }
 
@@ -43,7 +43,19 @@ body{
 }
 
 
-.profiledetails .topview .editbutton a{
+.profiledetails .bottomview table{
+    width: 100%;
+}
+
+
+
+.profiledetails .bottomview .editbutton{
+    transform: translateX(30%);
+
+}
+
+
+.profiledetails .bottomview .editbutton a{
     height: 30px;
     padding: 15px 20px;
     font-size: 18px;
@@ -52,14 +64,15 @@ body{
     color: #fff;
     text-align: center;
     background-color: rgb(48, 185, 235);
-    border-radius: 10px
+    border-radius: 30px;
+    
 }
 .profiledetails .bottomview{
     margin-top: 70px;
 }
 .profiledetails .bottomview .userimage img{
     width: 100%;
-    transform: translate(0%,25%);
+    transform: translate(0%,30%);
 
 }
 .profiledetails .bottomview .userinfo{
@@ -75,7 +88,7 @@ body{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 4px 2px 0px gray;
 }
 
@@ -93,6 +106,7 @@ body{
 
 .profiledetails .bottomview .userinfo .softy{
     font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 300px;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Della Respira', serif;
+    font-weight: 400px;
 }
